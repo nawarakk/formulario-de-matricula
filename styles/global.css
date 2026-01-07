@@ -49,3 +49,17 @@ img{
 .flex-2{
     flex: 2
 }
+
+.descktop-only{
+    display: initial;
+}
+
+@media (width <= 79em){
+    .descktop-only{
+        display: none;
+    }
+
+    .flex{
+        display: grid;
+    }
+}

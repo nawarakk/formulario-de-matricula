@@ -25,3 +25,16 @@ button {
         }
     }
 }
+
+@media (width <=79em) {
+    button{
+        &.btn-primary{
+            text-align: center;
+        }
+
+        &.btn-secondary{
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+}

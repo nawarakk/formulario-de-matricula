@@ -42,8 +42,36 @@ aside{
     h2{
         font: 600 2.5rem/1.25 var(--font-family);
         margin-bottom: .5rem;
+        display: block;
         span{
             color: var(--text-highlight);
         }
     }
+}
+
+@media (width <=79em) {
+    aside {
+        position: absolute;
+        padding: 1.5rem;
+        height: 23rem;
+        width: 24rem;
+        top: 0;
+       
+        & header{
+            display: grid;
+            justify-content: center;
+        }
+
+    }
+    #app{
+        overflow: auto;
+        position: relative;
+        display: block;
+    }
+
+    main{
+        padding-top: 25rem;
+        padding-inline: 1.5rem;
+    }
+    
 }

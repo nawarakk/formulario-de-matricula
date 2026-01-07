@@ -46,6 +46,7 @@ select{
 
 .address .flex{
     gap: 1.25rem;
+    
 }
 
 .input-wrapper:has([disabled]){
